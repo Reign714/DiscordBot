@@ -169,8 +169,6 @@ client.on('message', async message => {
     if (err) throw err;
   });*/
 
-  /* */
-
   if (message.content.indexOf(config.prefix) !== 0) return;
 
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
